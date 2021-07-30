@@ -1,0 +1,62 @@
+html{
+	font-size: 1em;
+}
+
+.hero-content{
+	background-image: url('../img/B1G1_Webinar_resources/masami_bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.uppercase{
+	text-transform: uppercase;
+	font-size: 37px;
+	font-weight: bolder;
+}
+
+.capitalize{
+	text-transform: capitalize;
+	font-size:24px;
+	font-weight: thin;
+}
+
+.white-bg{
+	background-color: white;
+}
+
+.pf-font{
+	font-family:'Brandon Grotesque';
+	font-size: 16px;
+	color: #363537;
+	font-weight: bold;
+	margin:0px;
+}
+
+.ps-font{
+	font-family:'Ubuntu';
+	font-size: 18px;
+	color: #363537;
+	font-weight: normal;
+	padding: 0px 15px 0px 15px;
+	/*margin:0px;*/
+}
+
+.bg{
+	background-image: url('../img/blue-map-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}

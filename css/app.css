@@ -1,0 +1,804 @@
+@font-face{font-family:'ProximaNova';
+   src: url('ProximaNova-Bold.otf');
+    font-weight:bold;font-style:normal}
+    @font-face{font-family:'ProximaNova';
+      src: url('ProximaNova-Regular.otf');
+        font-weight:normal;font-style:normal}
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+body{font-family:'ProximaNova';}
+
+
+body,a,p
+{
+  font-family:'ProximaNova';
+  font-weight: 700;
+}
+
+h1,h2,h3,h4,h5
+{
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.facu img {
+  width: 100%;
+  max-width: 120px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.hd1 {
+  font-size: 13px;
+  color: #000;
+}
+
+p
+{
+   font-weight: normal;
+
+  font-size: 16px;
+    color: #323232;
+}
+
+ a
+ {
+   font-family: 'Ubuntu';
+    font-weight: normal;
+    font-size: 17px;
+
+ }
+
+.center
+
+{
+  text-align: center;
+}
+
+.out-vc {
+  display: table;
+}
+.in-vc {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.in-vc-right {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+
+  #particles-js canvas{
+ position:fixed;
+ height:100% !important;
+ width:100% !important;
+ top:0px;
+ z-index:-1;
+ overflow: hidden;
+ max-width:100%;
+ opacity: 60%;
+ }
+
+ .flex__row--center-center{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ .rown
+{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+ .rowl
+{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.rowll
+{
+ padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+
+
+p
+{
+  font-size: 17px;
+  }
+
+.reveal
+{
+  max-width: 500px !important;
+
+}
+
+
+label
+{
+ font-size: 17px;
+
+  }
+ .rowm
+{
+  padding-top:20px;
+}
+
+.padding__lr-r40-0{
+  padding-top:15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.purpletxt
+{
+	color: #006edb;
+
+ 	font-weight: normal;
+ 	margin-bottom: 0px;
+
+}
+
+.white
+{
+	color: #fff;
+}
+.bg
+{
+  background-image:url('../img/banner1.jpg');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+
+ .green_bg
+{
+  background-image:url('../img/green_bg.png');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8fba34;
+
+ }
+
+.b1g
+{
+ background-image:url('../img/countdown.jpg');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.b2g
+{
+   background-image:url('../img/banner.jpg');
+  background-position: center  top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 12vw 30px 10vw;
+}
+
+.backnew
+{
+   background-image:url('../img/banner2.jpg');
+  background-position: center  top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 12vw 30px 10vw;
+}
+
+
+.b2g2
+{
+     background-image:url('../img/roger_hamilton_footer.jpg');
+  background-position: center  top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 12vw 30px 10vw;
+
+}
+
+ .bg5
+ {
+  /*background:linear-gradient(30deg,#3FDCFF,#2E3160,#00A99D);
+  */
+  background: url('../img/bg.jpg');
+  background-position: center bottom ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+
+.bg7
+{
+    background:#002B43;
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Tell the <li> to not display numbers, but keep track of what the numbers should be */
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+}
+/* Outout the numbers using the counter() function, but use a custom color, and position the numbers how we want */
+ol li:before {
+  color: #8FBB23;
+  content: counter(list) ".";
+  left:-32px;
+  position: absolute;
+  text-align: right;
+  font-size: 18px;
+  width: 26px;
+}
+
+
+ .bg5 p
+ {
+  color: #fff;
+  font-weight: 400;
+ }
+
+ .bg6
+ {
+    background-image:url('../img/b2.jpg');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+.purptext
+{
+  color: rgb(20, 57, 89);
+}
+
+.bluetxt
+{
+  color: #002B43;
+}
+
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    /*font-size: 30px; */
+}
+#clockdiv > div{
+    padding: 10px 0px 0px 0px;
+    border-radius: 3px;
+    background: transparent;
+    display: inline-block;
+}
+#clockdiv h1
+{
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+#clockdiv div > span{
+    padding: 0px 0px 15px 0px ;
+    border-radius: 3px;
+    background: transparent;
+    display: inline-block;
+}
+.smalltext{
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.colsk
+{
+  vertical-align: top;
+
+}
+
+.klo
+{
+  border-right: 1px solid #29ABE2;
+}
+.colsk h2
+{
+  padding: 5px;
+}
+
+
+.bluetxt2
+{
+  color: #032D60;
+}
+
+
+.llp
+{
+  border-right: 1px solid #333;
+}
+ .bg2
+ {
+
+   background:url('../img/about-paul_bg.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+
+.bg3
+{
+  background: linear-gradient(33.2deg, #3fdcff, #6800bf, #ff71ff);
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg3 p
+{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
+.bg4
+{
+background:url('../img/bg_2.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;}
+
+
+ .orgbutton
+ {
+ 	background: #F05203 ;
+ 	padding:10px 70px;
+ 	color: #fff;
+  font-size: 18px;
+ 	font-weight: 500;
+  border-radius: 0px;
+ }
+
+
+
+.whitebtn
+{
+  background: transparent;
+  padding:10px 40px ;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 22px;
+  border: 1px solid #fff;
+}
+
+.btn11
+{
+  padding:10px 40px;
+  font-size: 24px;
+}
+
+.btn3, .btn3:hover, .btn3:focus
+{
+  background: #F05203 ;
+  width: 100%;
+  border-radius: 0px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 390px;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea
+{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 0px;
+}
+
+.orgbutton:hover , .whitebtn:hover
+ {
+ color: #fff;
+ font-weight: bold;
+ }
+
+.grntxt
+{
+ color: #8FBB23;
+}
+
+.grn
+{
+  background: #8ac43f;
+}
+
+
+ .greentxt
+ {
+ 	color: #8ac43f;
+
+ 	font-weight: bold;
+ 	margin-bottom: 0px;
+
+
+ }
+
+ .purptxt
+ {
+ 	color: #714e84;
+ 	font-weight: bold;
+ 	margin-bottom: 0px;
+
+ }
+
+ .pan1
+ {
+ 	background: #8ac43f;
+ 	padding-left: 2vw;
+ 	padding-right: 2vw;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+ .DateCountdown h4,
+.DateCountdown span {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+ .pan2
+ {
+ 	background: #fff;
+ 	padding: 20px 30px 10px 30px;
+  border-radius: 0px;
+
+
+  /*max-width: 560px;
+*/ }
+
+ .pan3
+ {
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 0px;
+  max-width: 560px;
+  border:1px solid  #00b4eb;
+ }
+
+ .pan3 h4
+ {
+  font-weight: bold;
+  margin-bottom: -5px;
+ }
+
+ .pan3 p
+ {
+  margin-bottom: 0px;
+ }
+
+ .pan5
+ {
+background: rgba(255,255,255,1);
+border-radius: 10px;
+ }
+
+
+.bgh
+{
+ max-width: 70rem;
+}
+
+.blue_lin
+{
+  background: linear-gradient(45deg, #50e2c2, #4a8fe3, #12254c);
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+
+}
+
+.blue_mob
+{
+  position: absolute;
+    top: -11vh;
+    left: 10vh;
+    width: 42vw;
+
+}
+
+#video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  background-image: url("../img/vid.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 0px !important;
+}
+
+@media only screen and (min-width: 75em)
+{
+
+.bg3 .large-7
+{
+  padding-right: 5.5vw;
+}
+
+.blue_lin
+{
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+
+}
+
+.blue_mob
+{
+  position: absolute;
+    top: -10vh;
+    left: 5vw ;
+    width: 34vw;
+
+}
+
+  }
+
+@media only screen and (min-width: 40em) and (max-width: 60em)
+{
+
+/*.b2g, .b2g2
+{
+   background-image:url('../img/roger_hamilton_header_m.png');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 12vw 30px 10vw;
+}*/
+
+
+
+/*.b2g h2, .b2g p
+{
+  color: #000;
+}*/
+
+.b2g
+{
+ /* padding-top: 200px;
+ */background-image:url('../img/banner.jpg');
+ text-align: center;
+ background-color: rgba(0,0,0,.5);
+ background-blend-mode: hue;
+}
+.b2g2
+{
+  background-position: center right;
+  /*background-image:url('../img/roger_hamilton_header_m.jpg');*/
+}
+
+.bg
+{
+  background-image:url('../img/banner.jpg');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+
+  .bg2
+  {
+    padding-top: 30px ;
+  }
+
+
+.blue_lin
+{
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+
+}
+
+.blue_mob
+{
+  position: absolute;
+    top: 11vh;
+    left: 0;
+    width: 42vw;
+
+}
+
+}
+@media only screen and (max-width: 40em)
+{
+
+  .padding__lr-r40-0{
+    padding-top:0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .b2g{
+    /* background-image: url(../img/banner_m.jpg); */
+    background-position: left;
+    background-color: rgba(0,0,0,.65);
+    background-blend-mode: hue;
+    padding: 30px 2vw 30px 2vw;
+  }
+
+/*  .b2g, .b2g2
+{
+   background-image:url('../img/roger_hamilton_header_m.png');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 12vw 30px 10vw;
+}
+*/
+/*.b2g h2, .b2g p
+{
+  color: #000;
+}*/
+
+
+h1
+{
+  font-size: 36px;
+}
+/* .b2g
+{
+ background-image:url('../img/headerimg.png');
+} */
+.b2g2
+{
+  background-position: center right;
+}
+.pms
+{
+  max-width: 400px;
+  padding-bottom: 15px;
+}
+
+h5
+{
+  font-weight: normal !important;
+}
+.pan1
+{
+	max-width: 90%;
+	margin: auto;
+	padding-left: 7vw;
+
+	padding-right: 7vw;
+
+
+	margin-bottom: 30px;
+}
+
+.pan2, .pan3
+{
+	max-width: 90%;
+	margin: auto;
+	padding-left: 7vw;
+
+	padding-right: 7vw;
+
+
+}
+
+
+.ptm
+{
+  background: url('../img/pt_m.png');
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+
+
+ .btn11
+
+ {
+  font-size: 20px;
+ }
+
+ .blue_mob
+{
+  position: absolute;
+    top:55vh;
+    left: 50vw;
+    width: 42vw;
+
+}
+
+.klo
+{
+  border-right: none;
+}
+
+h1,h2,h3,h4,h5
+{
+  font-weight: 600;
+}
+
+
+.blue_lin
+{
+  position: relative;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+
+}
+
+  .bg2
+  {
+    padding: 30px ;
+  }
+
+
+
+h5
+{
+  font-size: 1.4rem;
+}
+
+h3
+{
+  font-size: 1.7rem;
+}
+
+
+h2
+{
+  font-size: 2rem;
+}
+
+.bg
+{
+  background-image:url('../img/banner.jpg');
+  background-position: center  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ }
+
+.pm2
+{
+  padding-bottom: 15px;
+}
+.DateCountdown {
+    width: 100%;
+  }
+  .DateCountdown > * {
+    transform-origin: center;
+    transform: scale(1);
+  }
+}

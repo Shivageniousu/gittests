@@ -1,0 +1,786 @@
+/*** Responsiveness ***/
+@media all and (max-width: 1857px) {
+	/* .row--section11 {
+		background-position: 690px center;
+	} */
+}
+@media all and (max-width: 1601px) {
+	/* .row--section11 {
+		background-position: 600px center;
+	} */
+}
+@media all and (max-width: 1441px) {
+	.row__section4__yellow-div {
+		padding: 33px;
+	}
+	.row__section4__headline2,
+	.row__section5__headline,
+	.row__section5__headline2 {
+		font-size: 55px;
+	}
+	.login__left {
+		padding: 340px 50px 95px;
+	}
+	.login__right {
+		padding: 0px 125px;
+	}
+	.row__hero-section__login {
+		height: auto;
+	}
+	.row__sections--about-section6 {
+		background-position: -100px center;
+	}
+}
+@media all and (max-width: 1367px) { 
+	.row__section4__headline2,
+	.row__section5__headline,
+	.row__section5__headline2	{
+		font-size: 50px;
+	}
+}
+@media all and (max-width: 1281px) {
+	.row__section4__yellow-div__headline {
+		font-size: 48px;
+		margin: 0;
+	}
+	.row__section4__headline2,
+	.row__section5__headline,
+	.row__section5__headline2	{
+		font-size: 44px;
+		margin-top: 10px;
+	}
+	.row__section4__subheadline2,
+	.row__section5__subheadline,
+	.row__section5__subheadline2 {
+		margin-bottom: 10px;
+	}
+	
+	.row__section4__text {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.row--section11 {
+		background-position: 520px center;
+	}
+	.login__left {
+		padding: 340px 25px 95px;
+	}
+	.login__right {
+		padding: 0px 90px;
+	}
+	.location-floating-div {
+		padding: 30px 30px 30px 100px;
+		width: 550px;
+	}
+}
+@media all and (max-width: 1025px) {
+	.mobile {
+		display: block;
+	}
+	.non-mobile {
+		display: none;
+	}
+	.navbar-brand {
+		margin-right: 20px;
+	}
+	.navbar-brand>img {
+		max-width: 110px;
+	}
+	.nav>li>a {
+		padding: 5px 10px !important;
+	}
+	.navbar-nav {
+		margin-left: 0;
+		margin-top: 3px;
+	}
+	.row__section2__iphone {
+		width: 100%;
+	}
+	.row__headline {
+		font-size: 38px;
+	}
+	.row__section4__yellow-div__headline {
+		font-size: 35px;
+	}
+	.row__section4__headline2, .row__section5__headline, .row__section5__headline2 {
+		font-size: 38px;
+		margin-bottom: 10px;
+	}
+	.row__section4__hr,
+	.row__section5__hr	{
+		margin: 0 0 10px;
+	}
+	.row__section4__subheadline2,
+	.row__section5__subheadline,
+	.row__section5__subheadline2 {
+		font-size: 22px;
+	}
+	.row__section4__text {
+		font-size: 14px;
+		line-height: 1.2em;
+	}
+	.row__section8__map__link--london {
+		top: 140px;
+		left: 416px;
+	}
+	.row__section8__map__link--auckland {
+		right: 55px;
+		bottom: 55px;
+	}
+	.row__columns__courses__rate__stars {
+		font-size: 12px;
+	}
+	.row__columns__courses__reviews, 
+	.row__columns__courses__students {
+		font-size: 14px;
+		line-height: 2.5em;
+	}
+	.row__columns__mentors__rate__stars {
+		font-size: 10px;
+	}
+	.row__section10__mentors__affiliations__each,
+	.row__mentors__affiliations__each	{
+		font-size: 14px;
+	}
+	.row__section10__mentors__specs__other,
+	.row__mentors__specs__other	{
+		font-size: 15px;
+		line-height: 1.2em;
+	}
+	.row__section10__mentors__affiliations__each,
+	.row__mentors__affiliations__each {
+		font-size: 13px;
+	}
+	.row__section10__mentors__affiliations__icons,
+	.row__mentors__affiliations__icons	{
+		width: 15px;
+	}
+	.row--section11 {
+		background-position: 395px center;
+	}
+	.row__column__posts__post-title {
+		font-size: 20px;
+	}
+	.row__column__posts__excerpt {
+		font-size: 18px;
+		line-height: 1.2em; 
+	}
+	.row__column__posts__post {
+		font-size: 18px;
+	}
+	.row__subheadline--login br {
+		display: none;
+	}
+	#btn--prev,
+	#btn--next {
+		display: none !important;
+	}
+	.events-slider .slider-inner-container * {
+		text-align: center !important;
+	}
+	.events-slider .slider-inner-container img,
+	.events-slider .slider-inner-container .btn {
+		display: block;
+		margin: auto;
+		float: none;
+	}
+	.events-slider .film_roll_pager {
+		left: 45%;
+	}
+	.articles__list__items__title,
+	.articles__list__items__authors	{
+		margin-left: 20px;
+	}
+	.cities-page .row__sections__map {
+		display: none;
+	}
+	.filter {
+		padding: 15px;
+	}
+	.filter-links--cities {
+		margin: 0 5px;
+	}
+	.filter-links {
+		font-size: 15px;
+		line-height: 25px;
+		padding-bottom: 10px;
+	}
+	.row__sections--about-section6 {
+		background-image: none;
+	}
+	.single-product-page .impact-list li {
+		display: block;
+	}
+	.row--prefooter {
+		background-position: 400px center;
+	}
+	.img--sm-float-left {
+		float: left;
+	}
+	.las-vegas-event-page .row--section7,
+	.las-vegas-event-page .row--section12	{
+		background-position: left top;
+	}
+	.check-list li {
+		background-size: 3%;
+	}
+	.event-schedule {
+		width: 44.8%;
+	}
+	.event-partner-img-container {
+		width: 30%;
+	}
+	.las-vegas-event-page .btn {
+		margin: 20px auto 0;
+	}
+	.location-floating-div {
+		padding: 20px;
+		width: 400px;
+	}
+	.las-vegas-event-page .accordion .card h5 {
+		background-size: 3% auto;
+	}
+	.las-vegas-event-page .row--event1-header .text--right {
+		text-align: center;
+	}
+	.testi-arrow {
+		display: none;
+	}
+}
+@media all and (max-width:813px) {
+	
+	.navbar-default {
+		padding: 10px;
+	}
+	.nav>li>a {
+		padding: 5px 4px !important;
+	}
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.row__headline--left {
+		text-align: center;
+	}
+	.container__verticalcenter,
+	.col__verticalcenter {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.row__section2__iphone {
+		display: block;
+		margin: auto;
+		max-width: 400px;
+	}
+	.row__section4__yellow-div__headline {
+		text-align: center;
+	}
+	.row__section4__text {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.col__leftcol__arrow,
+	.col__rightcol__arrow {
+		display: none;
+	}
+	.row__section6__boxes {
+		margin-bottom: 20px;
+	}
+	.row_section7_columns__img {
+		display: block;
+		margin: auto;
+	}
+	.row_section7_columns__headline {
+		text-align: center;
+	}
+	.row_section7_columns__img--mobile {
+		display: block;
+	}
+	.row_section7_columns__img--hide-on-mobile { 
+		display: none;
+	}
+	.event-animated-img {
+		left: 0px;
+		top: -103px;
+	}
+	.row__section8__map {
+		display: none;
+	}
+	.event-lightbox__event-details,
+	.event-lightbox__event-details__text {
+		/* padding: 0 15px; */
+	}
+	.event-mobile {
+		display: block;
+	}
+	.london-event-container {
+		background-size: auto;
+		padding-top: 250px;
+		margin-bottom: 20px;
+	}
+	.event-lightbox__event-image {
+		padding: 80px 20px 20px;
+	}
+	.row__section9__columns {
+		padding: 0;
+	}
+	.testimonials {
+		width: 700px !important;
+	}
+	.testimonial__img {
+		height: 500px;
+		margin-left: -50px;
+	}
+	.row__columns__courses {
+		margin-bottom: 20px;
+		float: left;
+	}
+	.row__columns__courses__reviews, .row__columns__courses__students {
+		line-height: 1.2em;
+	}
+	.row--section11 {
+		background-image: none;
+		padding: 50px 0;
+	}
+	.row__section11__img--mobile {
+		display: block;
+	}
+	.row__section12 {
+		background-image: url('../images/testimonials-bg.png');
+		background-color: #97be36;
+	}
+	.row__column__posts {
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+		padding-bottom: 30px;
+	}
+	.copyright__text {
+		text-align: center;
+	}
+	.copyright__influex-logo {
+		float: none;
+		display: block;
+		margin: 10px auto 0;
+	}
+	.mentors {
+		display: block;
+	}
+	.row--filter, .container--filter {
+		display: none;
+	}
+	.stories--two-thirds,
+	.stories--one-half,
+	.stories--one-third	{
+		width: 100%;
+		display: block;
+	}
+	.articles--two-thirds,
+	.articles--one-half,
+	.articles--one-third	{
+		width: 100%;
+		display: block;
+	}
+	.stories--margin-right {
+		border-right: 0px solid transparent;
+	}
+	.articles--margin-right {
+		border-right: 0px solid transparent;
+	}
+	.row__columns--stories {
+		margin: 0;
+	}
+	.row__columns--articles {
+		margin: 0;
+	}
+	.stories-pic {
+		display: none;
+	}
+	.articles-pic {
+		display: none;
+	}
+	.stories-pic--mobile {
+		display: block;
+	}
+	.articles-pic--mobile {
+		display: block;
+	}
+	.login__right:before {
+		display: none;
+	}
+	.login__right {
+		padding: 20px 90px;
+	}
+	.row__footer__menu__item {
+		margin-bottom: 10px;
+	}
+	.events-slider .film_roll_pager {
+		left: 43%;
+		bottom: 10px;
+	}
+	.article-columns--sidebar {
+		margin-top: 50px;
+	}
+	.articles__list__items__title,
+	.articles__list__items__authors	{
+		margin-left: 0;
+	}
+	.events__event-details__text br,
+	.events__event-details__text br	{
+		display: none;
+	}
+	.btn--align-right {
+		margin-bottom: 15px;
+	}
+	.microdegrees-item {
+		display: block;
+		margin-bottom: 20px;
+		float: left;
+	}
+	.microdegree-testimonials__img {
+		width: 100px!important;
+		display: block;
+		margin: auto;
+	}
+	.about-section6-img,
+	.about-section4-img {
+		margin-bottom: 50px;
+	}
+	.articles { 
+		column-count: 1;
+		column-gap: 1em;
+	}
+	.single-product-page .impact-list li {
+		display: inline-block;
+	}
+	.single-product-page .product-price {
+		margin-top: 30px;
+	}
+	.event-specs-list-items--time {
+		margin-bottom: 0;
+	}
+	.location-floating-div {
+		padding: 10px;
+		width: 300px;
+	}
+	.row--prefooter {
+		background-image: none;
+	}
+	.vertical-center {
+		display: block;
+	}
+	.row--price-box {
+		display: block;
+		margin: 30px auto;
+		max-width: 400px;
+	}
+	.price-box--col1, .price-box--col2, .price-box--col3 {
+		display: block;
+		float: left;
+		height: auto!important;
+		width: 100%;
+	}
+	.price-box--col2-arrow {
+		display: none;
+	}
+	.row--testimonials .col--float-right {
+		float: left;
+	}
+	.row--price-box {
+		max-width: 100%;
+	}
+	.event2-page .price-box1 .btn {
+		position: relative;
+		left: auto;
+		bottom: auto;
+		margin-left: auto;
+	}
+	.row--price-box .price-box1 .price-box-row2 {
+		height: auto!important;
+	}
+	
+}
+
+@media all and (max-width:600px) {
+	
+	.navbar-brand {
+		margin-top: 8px;
+		margin-left: 15px;
+		margin-bottom: 8px;
+	}
+	.navbar-default .navbar-collapse {
+		background-color: #002B43;
+	}
+	.navbar-default {
+		padding: 0px 10px;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #fff !important;
+	}
+	.btn--orange,
+	.btn--white	{
+		padding: 10px 0;
+		font-size: 14px;
+	}
+	.row {
+		overflow: hidden;
+	}
+	.row__headline {
+		font-size: 28px;
+		text-align: center;
+	}
+	.row__headline br {
+		display: none;
+	}
+	.row__hero__headline {
+		font-size: 40px;
+	}
+	.row__section1 {
+		padding: 180px 0;
+	}
+	.row__section1__headline {
+		font-size: 44px;
+		line-height: 1.2em;
+	}
+	.row__section4__text {
+		font-size: 18px;
+	}
+	.row__section4__img2 {
+		display: none;
+	}
+	.row__section4__img2--mobile {
+		display: block;
+	}
+	.row__columns__courses__link {
+		font-size: 18px;
+	}
+	.event-animated-img {
+		left: 17px;
+		top: -72px;
+		width: 322px;
+	}
+	.row__section10__mentors__rank br,
+	.row__mentors__rank br	{
+		display: none;
+	}
+	.row__section10__mentors__pic,
+	.row__section10__mentors__specs,
+	.row__mentors__pic,
+	.row__mentors__specs	{
+		float: left;
+		width: 100%;
+	}
+	.row__section10__mentors__reviews,
+	.row__mentors__reviews {
+		text-align: right;
+	}
+	.row__section11__text {
+		font-size: 18px;
+	}
+	.testimonials {
+		width: 100% !important;
+	}
+	.testimonials--mobile {
+		display: block;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+	.btn_prev,
+	.btn_next {
+		display: none !important;
+	}
+	.btn__cities--type1 {
+		float: left;
+		margin-left: 0;
+	}
+	#testimonial-slider {
+		display: none;
+	}
+	.testimonials__name,
+	.testimonials__location	{ 
+		text-align: center;
+	}
+	.mentors__row__section1 {
+		margin-top: 50px;
+	}
+	.row--prefooter {
+		padding: 30px 0;
+	}
+	.row__footer__logo {
+		display: block;
+		margin: 0 auto 15px;
+	}
+	.footer-social-share {
+		float: none;
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+	.form-control--submit {
+		max-width: none;
+		width: 100%;
+	}
+	.login__left {
+		padding: 150px 20px 20px;
+	}
+	.login__right {
+		padding: 20px;
+	}
+	.row__hero-section__login {
+		padding: 0 0 0;
+	}
+	.row__sections--about-section2 {
+		padding: 50px 0 0;
+	}
+	.row__sections--about-section6 {
+		padding: 50px 0;
+	}
+	.about-section6--subhead {
+		text-align: center;
+	}
+	.flip-card {
+		margin-bottom: 0;
+	}
+	.microdegrees-v2 .microdegree-item-author,
+	.microdegrees-v2 .row__columns__courses__title--microdegree,
+	.microdegrees-v2 .row__columns__courses__reviews, 
+	.microdegrees-v2 .row__columns__courses__students	{
+		text-align: center;
+	}
+	.microdegrees-v2 .row__columns__courses__link--microdegree {
+		display: block;
+	}
+	.microdegrees-v2 .microdegree-item-author-img {
+		float: none;
+	}
+	.nav-tabs>li>p,
+	.tab-content p	{
+		font-size: 14px;
+		line-height: 1.2em;
+	}
+	.single-product-page .impact-list li {
+		display: block;
+	}
+	.single-product-page .impact-list li:before {
+		margin-right: 10px;
+	}
+	.post-bookmark {
+		display: block;
+	}
+	.post-author {
+		text-align: center;
+		margin: 10px auto !important;
+	}
+	.post-author-pic {
+		float: none!important;
+		margin-right: auto!important;
+		display: block;
+		margin-top: 0!important;
+		margin-left: auto;
+	}
+	.floating-social-links {
+		display: none;
+	}
+	.mobile-social-links {
+		display: block;
+	}
+	.post-content p {
+		font-size: 18px;
+	}
+	.DateCountdown {
+		width: 100%;
+	}
+	.DateCountdown > * {
+		transform: scale(0.8);
+	}
+	.row-eq-height {
+		display: block;
+	}
+	.check-list li {
+		background-size: 9%;
+	}
+	.dynamics {
+		padding-top: 1px;
+		padding-left: 70px;
+		background-size: 20%;
+	}
+	.list-4-columns {
+		column-count: 1;
+	}
+	.img--float-right {
+		margin-left: 0!important
+	}
+	.testi-pic {
+		margin: 20px auto 0;
+	}
+	.event-partner {
+		display: block;
+	}
+	.event-partner-img-container, 
+	.event-partner-specifics {
+		width: 100%;
+		display: block;
+		height: auto!important;
+	}
+	.event-partner-specifics {
+		padding: 20px;
+	}
+	.event-partner-img {
+		width:100%;
+		max-width:100%;
+	}
+	.event-partner-name {
+		font-size: 18px;
+	}
+	.price-box--col1, .price-box--col2, .price-box--col3 {
+		display: block;
+	}
+	.price-box--col1,
+	.price-box--col3	{
+		height: auto!important;
+	}
+	.price-box--col2-arrow {
+		display: none;
+	}
+	.banshee-headline {
+		font-size: 117px;
+		margin-bottom: -70px;
+		text-align: center;
+	}
+	p {
+		font-size: 18px;
+		line-height: 1.2em;
+	}
+	.row--event1-header img {
+		text-align: center;
+		margin: auto;
+	}
+	.row--event1-header .text--right {
+		text-align: center;
+		margin: 20px auto!important;
+	}
+}
+@media all and (max-width:415px) {
+	.DateCountdown > * {
+		transform: scale(0.9);
+		margin-left: 0px;
+	}
+	.text--50 {
+		font-size: 35px;
+	}
+}
+@media all and (max-width:376px) {
+	.DateCountdown > * {
+		transform: scale(0.9);
+		margin-left: 0px;
+	}
+	.price-box--col2 .check-list li {
+		background-size: 8% auto;
+	}
+}
+@media all and (max-width:321px) {
+	.row__footer__menu {
+		column-count: 1;
+	}
+	.row__footer__menu__item {
+		margin-bottom: 0.5em;
+	}
+}
