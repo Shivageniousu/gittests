@@ -912,7 +912,7 @@ if (isset($_REQUEST['utm_medium'])) {
 
         <div class="in-vc">
           <center>
-       <h4 class="fontwide mobview"><b class="grntxt">Scale Up Entrepreneurs Masterclass</b></h4>
+       <h4 class="fontwide mobview"><b class="grntxt">Scale Up feature branch</b></h4>
           <img src="img/suraj_top.png" style="width:100%;max-width: 350px;"> <br>
        
         </center>
