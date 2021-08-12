@@ -23,7 +23,7 @@ if (isset($_REQUEST['utm_medium'])) {
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scale Up Entrepreneurs Masterclass</title>
+  <title>Scale Up master</title>
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/iceberg.css">
@@ -927,8 +927,8 @@ if (isset($_REQUEST['utm_medium'])) {
         
           
 
-      <h4 class="fontwide deskview"><b class="grntxt">Scale Up Entrepreneurs Masterclass</b></h4>
-        <h6 class="white"><b>3 Steps to Build a </br> Million Dollar Customer Pathway</b>
+      <h4 class="fontwide deskview"><b class="grntxt">Feature Masterclass</b></h4>
+        <h6 class="white"><b>3 Steps to Build a </br> Million Dollar Customer Pathway 3 Steps to Build a </br> Million Dollar Customer Pathway</b>
         </h6>
         <p class="grntxt"><b>Join us for this FREE masterclass <br class="hide-for-small-only">on Thursday, 29th July 2021 </b><br>
           <b class="white">9am UK / 4pm SGT / 6pm AEST</b></p>
